@@ -2,7 +2,7 @@
 API that fronts an ftp server
 
 ## install dependencies
-`pip install -r requirements.txt`
+`pip install uvicorn[standard] fastapi ftplib`
 
 ## run the server
 `uvicorn ftpApi:app`
